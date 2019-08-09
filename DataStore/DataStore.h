@@ -57,7 +57,6 @@ public:
   using Item = std::pair<PathIter, Date>;
   using ListOfItems = std::list<Item>;
   using File = std::string;
-//using Store = std::map < File, ListOfIters > ;
   using Store = std::map < File, ListOfItems >;
   using iterator = Store::iterator;
   using PathCollection = std::vector < Path > ;
